@@ -67,4 +67,4 @@ _ = FixedNavigationBarView(title: "Title", containerView: self.fixedNavigationBa
 
 
 ## License
-`FixedNavigationBarView` is released under the MIT license. See [LICENSE](https://github.com/batikansosun/FixedNavigationBarView/blob/master/LICENSE) for details.
+`FixedNavigationBarView` is released under the MIT license. See [LICENSE](https://github.com/batikansosun/FixedNavigationBarView/blob/master/LICENCE) for details.
