@@ -15,9 +15,9 @@ A fast, lightweight and flexible Navigation Bar View created with Pure Swift, co
  This Navigation Bar has 3 convenience initializer method, you can use one these for your requirement.
  
 ### Parameters:
- - Left Button: known as the most back button, the default action pop the current view controller if this button action method is not called.
+ - Left Button: known as the most back button, the default action is pop the current view controller if this button action method is not called.
  
- - Right Button: known as the most Side Menu button, the default action show side menu from right if this button action method is not called.
+ - Right Button: known as the most Side Menu button, the default action is show side menu from right if this button action method is not called.
  
  - Title: Provide information about current view controller
  
