@@ -2,7 +2,7 @@
 
 <a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/ee0daa6ce485b12e85b3878732b203bcdbd8ebba/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f53776966742d352e302d6f72616e67652e737667"><img src="https://camo.githubusercontent.com/ee0daa6ce485b12e85b3878732b203bcdbd8ebba/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f53776966742d352e302d6f72616e67652e737667" data-canonical-src="https://img.shields.io/badge/Swift-5.0-orange.svg" style="max-width:100%;"></a>
 
-A fast, lightweight and flexible Navigation Bar View created with Pure Swift. compatible with Obj-C 
+A fast, lightweight and flexible Navigation Bar View created with Pure Swift, compatible with Obj-C 
 
 
 ### Navigation Bar Purpose:
