@@ -14,6 +14,7 @@
 		A0275A9422EE2FAB009CBED8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0275A9222EE2FAB009CBED8 /* LaunchScreen.storyboard */; };
 		A0275A9F22EE2FAB009CBED8 /* FixedNavigationBarViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0275A9E22EE2FAB009CBED8 /* FixedNavigationBarViewTests.swift */; };
 		A0275AAA22EE2FAB009CBED8 /* FixedNavigationBarViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0275AA922EE2FAB009CBED8 /* FixedNavigationBarViewUITests.swift */; };
+		A0275AB822EE301E009CBED8 /* FixedNavigationBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0275AB722EE301E009CBED8 /* FixedNavigationBarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		A0275AA522EE2FAB009CBED8 /* FixedNavigationBarViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FixedNavigationBarViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0275AA922EE2FAB009CBED8 /* FixedNavigationBarViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FixedNavigationBarViewUITests.swift; sourceTree = "<group>"; };
 		A0275AAB22EE2FAB009CBED8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0275AB722EE301E009CBED8 /* FixedNavigationBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FixedNavigationBarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				A0275A8922EE2FAA009CBED8 /* AppDelegate.swift */,
 				A0275A8B22EE2FAA009CBED8 /* ViewController.swift */,
+				A0275AB722EE301E009CBED8 /* FixedNavigationBarView.swift */,
 				A0275A8D22EE2FAA009CBED8 /* Main.storyboard */,
 				A0275A9022EE2FAB009CBED8 /* Assets.xcassets */,
 				A0275A9222EE2FAB009CBED8 /* LaunchScreen.storyboard */,
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A0275A8C22EE2FAA009CBED8 /* ViewController.swift in Sources */,
+				A0275AB822EE301E009CBED8 /* FixedNavigationBarView.swift in Sources */,
 				A0275A8A22EE2FAA009CBED8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -363,7 +367,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -418,7 +422,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -433,12 +437,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 44U88AXRT6;
 				INFOPLIST_FILE = FixedNavigationBarView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.loodos.FixedNavigationBarView.FixedNavigationBarView;
+				PRODUCT_BUNDLE_IDENTIFIER = com.loodos.we;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -450,12 +455,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 44U88AXRT6;
 				INFOPLIST_FILE = FixedNavigationBarView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.loodos.FixedNavigationBarView.FixedNavigationBarView;
+				PRODUCT_BUNDLE_IDENTIFIER = com.loodos.we;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
