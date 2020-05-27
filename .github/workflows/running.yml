@@ -1,0 +1,15 @@
+name: Running
+on:
+  push:
+    branches:
+      - master
+jobs:
+  deploy:
+    name: Deploying to Testflight
+    runs-on: macOS-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v1
+      - name: Build As Debug
+        run: ./.github/build.sh
+      
