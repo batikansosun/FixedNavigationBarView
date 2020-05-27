@@ -2,7 +2,9 @@
 
 set -eo pipefail
 
-xcodebuild -project FixedNavigationBarView.xcodeproj \
+xcodebuild -project FixedNavigationBarView.project \
             -scheme FixedNavigationBarView\ iOS \
-            -destination platform=iOS\ Simulator,OS=13.3,name=iPhone\ 11 \
-            clean test | xcpretty
+            -sdk iphoneos \
+            -configuration AppStoreDistribution \
+            -archivePath $PWD/build/FixedNavigationBarView.xcarchive \
+            clean archive | xcpretty
