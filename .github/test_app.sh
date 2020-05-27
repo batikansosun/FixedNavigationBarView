@@ -4,5 +4,5 @@ set -eo pipefail
 
 xcodebuild -project FixedNavigationBarView.xcodeproj \
             -scheme FixedNavigationBarView\
-            -sdk iphoneos \
+            -sdk iphonesimulator \
             -configuration Debug \
