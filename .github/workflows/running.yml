@@ -11,5 +11,5 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v1
       - name: Build As Debug
-        run: ./.github/build.sh
+        run: ./.github/test_app.sh
       
