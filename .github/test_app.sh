@@ -3,7 +3,7 @@
 set -eo pipefail
 
 xcodebuild -project FixedNavigationBarView.xcodeproj \
-            -scheme FixedNavigationBarView\ iOS \
+            -scheme FixedNavigationBarView\
             -sdk iphoneos \
             -configuration AppStoreDistribution \
             -archivePath $PWD/build/FixedNavigationBarView.xcarchive \
