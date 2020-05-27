@@ -11,5 +11,8 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v1
       - name: Build As Debug
-        run: .github/test_app.sh
+        run: xcodebuild -project FixedNavigationBarView.xcodeproj \
+            -scheme FixedNavigationBarView\
+            -sdk iphonesimulator \
+            -configuration Debug \
       
